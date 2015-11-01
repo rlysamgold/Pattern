@@ -1,9 +1,11 @@
 package com.pugovkin.d.model;
 
+import com.pugovkin.d.interfaces.IModel;
+
 /**
  * Created by Abrite on 01.11.15.
  */
-public class Model {
+public class Model implements IModel {
 
     private Integer inputNumber;
     private Integer outputNumber;
